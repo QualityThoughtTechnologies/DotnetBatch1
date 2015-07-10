@@ -1,0 +1,5 @@
+D:\DotnetBatch1\Helloworld\29June_01\29JUne_04\bin\Debug\29JUne_04.exe.config
+D:\DotnetBatch1\Helloworld\29June_01\29JUne_04\bin\Debug\29JUne_04.exe
+D:\DotnetBatch1\Helloworld\29June_01\29JUne_04\bin\Debug\29JUne_04.pdb
+D:\DotnetBatch1\Helloworld\29June_01\29JUne_04\obj\Debug\29JUne_04.exe
+D:\DotnetBatch1\Helloworld\29June_01\29JUne_04\obj\Debug\29JUne_04.pdb

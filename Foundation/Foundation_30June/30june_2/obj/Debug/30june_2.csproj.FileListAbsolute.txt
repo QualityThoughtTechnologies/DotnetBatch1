@@ -1,0 +1,5 @@
+D:\DotnetBatch1\Foundation\Foundation_30June\30june_2\bin\Debug\30june_2.exe.config
+D:\DotnetBatch1\Foundation\Foundation_30June\30june_2\bin\Debug\30june_2.exe
+D:\DotnetBatch1\Foundation\Foundation_30June\30june_2\bin\Debug\30june_2.pdb
+D:\DotnetBatch1\Foundation\Foundation_30June\30june_2\obj\Debug\30june_2.exe
+D:\DotnetBatch1\Foundation\Foundation_30June\30june_2\obj\Debug\30june_2.pdb

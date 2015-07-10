@@ -2,22 +2,23 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-namespace july10_01
+
+namespace _10july_02
 {
-    class CRTMonitor
+    class CRTMonitor:Monitor
     {
-        public void Start()
+        public override void Start()
         {
             Console.WriteLine("CRT Monitor Started");
         }
 
-        public void Stop()
+        public override void Stop()
         {
             Console.WriteLine("CRT Monitor Stopped");
 
         }
 
-        public void Identify()
+        public override void Identify()
         {
             Console.WriteLine("CRT Monitor ");
         }

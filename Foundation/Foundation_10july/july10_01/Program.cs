@@ -10,6 +10,8 @@ namespace july10_01
     {
         static void Main(string[] args)
         {
+            Computer computer = new Computer();
+            computer.Describe();
         }
     }
 }

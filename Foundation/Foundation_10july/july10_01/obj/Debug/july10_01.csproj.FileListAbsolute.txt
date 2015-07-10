@@ -1,1 +1,7 @@
 D:\DotnetBatch1\Foundation\Foundation_10july\july10_01\bin\Debug\july10_01.exe.config
+D:\DotnetBatch1\DotnetBatch1\Foundation\Foundation_10july\july10_01\bin\Debug\july10_01.exe.config
+D:\DotnetBatch1\DotnetBatch1\Foundation\Foundation_10july\july10_01\bin\Debug\july10_01.exe
+D:\DotnetBatch1\DotnetBatch1\Foundation\Foundation_10july\july10_01\bin\Debug\july10_01.pdb
+D:\DotnetBatch1\DotnetBatch1\Foundation\Foundation_10july\july10_01\obj\Debug\july10_01.csprojResolveAssemblyReference.cache
+D:\DotnetBatch1\DotnetBatch1\Foundation\Foundation_10july\july10_01\obj\Debug\july10_01.exe
+D:\DotnetBatch1\DotnetBatch1\Foundation\Foundation_10july\july10_01\obj\Debug\july10_01.pdb

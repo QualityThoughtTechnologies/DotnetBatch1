@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenNumberConsole", "EvenNumberConsole\EvenNumberConsole.csproj", "{ADB1AC27-7795-4517-92E7-5AE2BA70826D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberLibrary", "NumberLibrary\NumberLibrary.csproj", "{936DC167-5749-4F7D-8027-2F97760C59B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenNumbersConsole_2", "EvenNIumbersConsole_2\EvenNumbersConsole_2.csproj", "{DFF66529-4E92-4AD3-86AA-72D782D01E55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADB1AC27-7795-4517-92E7-5AE2BA70826D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB1AC27-7795-4517-92E7-5AE2BA70826D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB1AC27-7795-4517-92E7-5AE2BA70826D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB1AC27-7795-4517-92E7-5AE2BA70826D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936DC167-5749-4F7D-8027-2F97760C59B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936DC167-5749-4F7D-8027-2F97760C59B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936DC167-5749-4F7D-8027-2F97760C59B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936DC167-5749-4F7D-8027-2F97760C59B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF66529-4E92-4AD3-86AA-72D782D01E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF66529-4E92-4AD3-86AA-72D782D01E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF66529-4E92-4AD3-86AA-72D782D01E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF66529-4E92-4AD3-86AA-72D782D01E55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

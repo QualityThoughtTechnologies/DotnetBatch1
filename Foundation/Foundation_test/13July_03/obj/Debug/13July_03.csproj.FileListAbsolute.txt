@@ -6,3 +6,11 @@ D:\DotnetBatch1\Foundation\Foundation_test\13July_03\obj\Debug\13July_03.exe
 D:\DotnetBatch1\Foundation\Foundation_test\13July_03\obj\Debug\13July_03.pdb
 D:\DotnetBatch1\Foundation\Foundation_test\13July_03\bin\Debug\13July_Lib.dll
 D:\DotnetBatch1\Foundation\Foundation_test\13July_03\bin\Debug\13July_Lib.pdb
+D:\DotnetBatch1\DotnetBatch1\Foundation\Foundation_test\13July_03\bin\Debug\13July_03.exe.config
+D:\DotnetBatch1\DotnetBatch1\Foundation\Foundation_test\13July_03\obj\Debug\13July_03.exe
+D:\DotnetBatch1\DotnetBatch1\Foundation\Foundation_test\13July_03\obj\Debug\13July_03.pdb
+D:\DotnetBatch1\DotnetBatch1\Foundation\Foundation_test\13July_03\obj\Debug\13July_03.csprojResolveAssemblyReference.cache
+D:\DotnetBatch1\DotnetBatch1\Foundation\Foundation_test\13July_03\bin\Debug\13July_03.exe
+D:\DotnetBatch1\DotnetBatch1\Foundation\Foundation_test\13July_03\bin\Debug\13July_03.pdb
+D:\DotnetBatch1\DotnetBatch1\Foundation\Foundation_test\13July_03\bin\Debug\13July_Lib.dll
+D:\DotnetBatch1\DotnetBatch1\Foundation\Foundation_test\13July_03\bin\Debug\13July_Lib.pdb

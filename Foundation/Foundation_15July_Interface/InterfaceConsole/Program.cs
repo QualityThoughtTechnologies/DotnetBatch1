@@ -13,9 +13,10 @@ namespace InterfaceConsole
         {
             RAM ram = new RAM();
             Processor processor = new Processor();
-            MotherBoard motherBoard = new MotherBoard(2);
+            MotherBoard motherBoard = new MotherBoard(3);
             motherBoard.AddHardware(ram);
             motherBoard.AddHardware(processor);
+            motherBoard.AddHardware(new BatteryHolder());
             Console.WriteLine(motherBoard.Display());
         }
     }

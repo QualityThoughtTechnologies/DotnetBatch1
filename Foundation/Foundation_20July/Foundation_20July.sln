@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnototherInterfaceExample", "YetAnototherInterfaceExample\YetAnototherInterfaceExample.csproj", "{1DBE11CB-B060-4A2D-B6D7-09B130896D14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingStation", "Vehicle\ParkingStation.csproj", "{F1217E85-A9FA-4BF8-9C4E-88F5609A026D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1DBE11CB-B060-4A2D-B6D7-09B130896D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DBE11CB-B060-4A2D-B6D7-09B130896D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DBE11CB-B060-4A2D-B6D7-09B130896D14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1217E85-A9FA-4BF8-9C4E-88F5609A026D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1217E85-A9FA-4BF8-9C4E-88F5609A026D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1217E85-A9FA-4BF8-9C4E-88F5609A026D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1217E85-A9FA-4BF8-9C4E-88F5609A026D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

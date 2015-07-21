@@ -9,6 +9,7 @@ namespace YetAnototherInterfaceExample
     abstract class CourseBase: IContact
     {
         private string[] courses;
+        private MyContainer<string> myContainer=new MyContainer<string>();
 
         public string Name
         {
@@ -36,25 +37,27 @@ namespace YetAnototherInterfaceExample
 
         public void AddCourse(string course)
         {
-            if (courses == null)
-            {
-                courses = new string[1];
-                courses[0] = course;
-            }
-            else
-            {
-                int newLength = courses.Length + 1;
-                string[] newCourses = new string[newLength];
-                Array.Copy(courses, newCourses, courses.Length);
-                newCourses[newLength - 1] = course;
-                courses = new string[newLength];
-                Array.Copy(newCourses, courses, courses.Length);
-            }
+            myContainer.Add(course);
+            //if (courses == null)
+            //{
+            //    courses = new string[1];
+            //    courses[0] = course;
+            //}
+            //else
+            //{
+            //    int newLength = courses.Length + 1;
+            //    string[] newCourses = new string[newLength];
+            //    Array.Copy(courses, newCourses, courses.Length);
+            //    newCourses[newLength - 1] = course;
+            //    courses = new string[newLength];
+            //    Array.Copy(newCourses, courses, courses.Length);
+            //}
         }
 
         public void DisplayCourses()
         {
-            Console.WriteLine(string.Join(",", courses));
+            //Console.WriteLine(string.Join(",", courses));
+            Console.WriteLine(myContainer.Display());
 
         }
     }

@@ -65,5 +65,12 @@ namespace YetAnototherInterfaceExample
     class Institute:CourseBase
     {
 
+        private MyContainer<Student> studentContainder = new MyContainer<Student>();
+
+        public void AddStudent(Student student)
+        {
+            studentContainder.Add(student);
+        }
+
     }
 }

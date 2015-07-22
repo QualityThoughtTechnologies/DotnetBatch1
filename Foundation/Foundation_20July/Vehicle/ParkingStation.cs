@@ -8,7 +8,7 @@ namespace Vehicle
 {
     class ParkingStation
     {
-        IList<IVehicle> vehicles = new List<IVehicle>(3);
+        IList<IVehicle> vehicles = new List<IVehicle>(1);
 
         public void AddVehicle(IVehicle vehicle)
         {

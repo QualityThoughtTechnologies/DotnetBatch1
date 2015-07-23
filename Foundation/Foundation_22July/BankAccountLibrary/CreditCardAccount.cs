@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace BankAccountLibrary
 {
-    public interface IAccount:ITransaction,IIdentity
+    public class CreditCardAccount:AccountBase
     {
-        string BankName { set; get; }
-        double Balance { get; }
-
-        
-
     }
 }

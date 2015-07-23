@@ -43,5 +43,16 @@ namespace BankAccountLibrary
             set;
             get;
         }
+
+        public virtual double Balance
+        {
+            get { return this.amount; }
+        }
+
+        public override string ToString()
+        {
+
+            return string.Format("Account Id : {0}, Account Name: {1}, Balance {2}", Id, Name, Balance);
+        }
     }
 }

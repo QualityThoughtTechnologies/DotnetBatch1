@@ -57,6 +57,30 @@ namespace BankDemo
             accountList = tempList;
             Display();
 
+            IDictionary<string, string> accountDictionary = new Dictionary<string, string>(3);
+            foreach(IAccount account in accountList)
+            {
+                accountDictionary.Add(account.Id, account.ToString());
+                //accountDictionary[account.Id] = account.ToString();
+            }
+
+            foreach(KeyValuePair<string,string> keyValuePair in accountDictionary)
+            {
+                Console.WriteLine("{0}=>{1}", keyValuePair.Key, keyValuePair.Value);
+            }
+
+            Console.WriteLine("Enter Id ");
+            string id = Console.ReadLine();
+            if(accountDictionary.ContainsKey(id))
+            {
+                Console.WriteLine("{0}=>{1}", id, accountDictionary[id]);
+            }
+            else
+            {
+                Console.WriteLine("Invalid Key");
+            }
+            
+
             
         }
 

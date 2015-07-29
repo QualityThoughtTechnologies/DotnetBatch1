@@ -15,8 +15,14 @@ namespace CastingDemo
             do
             {
                 Console.WriteLine("Enter your choice 0,1,2");
-
-                int value = int.Parse(Console.ReadLine());
+                int value;
+                //int value = int.Parse(Console.ReadLine());
+                if(!int.TryParse(Console.ReadLine(), out value))
+                {
+                    Console.WriteLine("Enter valid Value");
+                   // continue;
+                    break;
+                }
                 ToyEnum toyType;
                 if(value==0)
                 {
@@ -25,7 +31,6 @@ namespace CastingDemo
                 else if(value==1)
                 {
                     toyType = ToyEnum.Electrical;
-
                 }
                 else
                 {
@@ -37,19 +42,56 @@ namespace CastingDemo
                     if(toy is IRemoteWork)
                     {
                         Console.WriteLine("Remote");
+                        DisplayRemoteWork(toy as IRemoteWork);
+                        DisplayToy(toy);
+                        StopWork(toy as IWork);
                     }
                     else 
                     {
                         Console.WriteLine("Electrical");
+                        //DisplayWork(toy as IWork);
+                        StartWork(toy as IWork);
+                        DisplayToy(toy);
+                        StopWork(toy as IWork);
  
                     }
                 }
                 else
                 {
                     Console.WriteLine("Animal");
+                    DisplayToy(toy);
                 }
 
             } while (toBeContinue);
+        }
+
+        static void DisplayWork(IWork work)
+        {
+            StartWork(work);
+            StopWork(work);
+        }
+
+        private static void StopWork(IWork work)
+        {
+            work.Stop();
+        }
+
+        private static void StartWork(IWork work)
+        {
+            work.Start();
+        }
+
+        static void DisplayRemoteWork(IRemoteWork remoteWork)
+        {
+            StartWork(remoteWork);
+            remoteWork.ControlUsingRemote();
+            
+        }
+        
+
+        static void DisplayToy(IToy toy)
+        {
+            toy.MakeSound();
         }
     }
 }

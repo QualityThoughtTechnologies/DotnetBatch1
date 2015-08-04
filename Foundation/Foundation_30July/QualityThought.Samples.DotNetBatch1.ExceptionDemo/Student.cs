@@ -20,7 +20,7 @@ namespace QualityThought.Samples.DotNetBatch1.ExceptionDemo
         {
             if(string.IsNullOrWhiteSpace(Name))
             {
-                throw new InvalidOperationException("Please Enter a valid Name");
+                throw new NameNotIntializedException("Please Enter a valid Name"," Test names are test,test2");
             }
         }
     }

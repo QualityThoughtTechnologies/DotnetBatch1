@@ -46,5 +46,21 @@ namespace QualityThought.UtilityLibrary.Test
             Assert.IsTrue(isPass, "Argument exception is not thrown");
 
         }
+
+        [ExpectedException(typeof(ArgumentException))]
+        [TestMethod]
+        public void TestIsEven_Negative_withNegativeNumber_Approach2()
+        {
+            NumberUtility.IsEven(-2);
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        [TestMethod]
+        public void TestIsEven()
+        {
+            Assert.AreEqual(int.MaxValue%2==0,NumberUtility.IsEven(int.MaxValue),"Expected is true");
+        }
     }
 }

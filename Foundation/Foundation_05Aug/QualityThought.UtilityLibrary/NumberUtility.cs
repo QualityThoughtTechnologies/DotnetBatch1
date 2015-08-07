@@ -28,5 +28,11 @@ namespace QualityThought.UtilityLibrary
             return (number % 2 == 0);
 
         }
+
+        public static int IncrementNumber(int number)
+        {
+            return number + 1; 
+
+        }
     }
 }
